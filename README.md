@@ -75,9 +75,11 @@ A file-based contact management application built with Node.js. This project dem
     │       ├── readContacts.js
     │       └── writeContacts.js
     └──    index.js
-    ├── .gitignore
     ├── .editorconfig
+    ├── .gitignore
     ├── .prettierrc
+    ├── .eslint-config.mjs
+    ├── .package-lock.json
     ├── package.json
     └── README.md
 
@@ -109,13 +111,6 @@ Each contact contains:
   "jobTitle": "Job Title"
 }
 ```
-
----
-
-## 🚀 Route Protection Components
-
-- PrivateRoute - Redirects unauthenticated users to login page
-- RestrictedRoute - Redirects authenticated users to contacts page
 
 ---
 
